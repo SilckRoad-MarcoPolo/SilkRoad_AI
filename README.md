@@ -19,8 +19,8 @@ This project implements a job recommendation system that analyzes job descriptio
 1. **Clone the Repository**
 
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/SilckRoad-MarcoPolo/SilkRoad_AI.git
+   cd SilkRoad_AI
 
 ```
 
