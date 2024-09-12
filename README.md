@@ -39,4 +39,57 @@ pandas
 scikit-learn
 nltk
 ```
+## Output Example
+
+```
+
+{
+    "user_skills": "python, sql, data analysis",
+    "recommendations": [
+        {
+            "job_title": "Software Engineer, ERP",
+            "matching_skills": 2,
+            "similarity_score": 0.37,
+            "job_skills": [
+                "sql",
+                "python",
+                "c"
+            ]
+        },
+        {
+            "job_title": "Software Engineer II - Java",
+            "matching_skills": 2,
+            "similarity_score": 0.34,
+            "job_skills": [
+                "shell",
+                "algorithms",
+                "database",
+                "nosql",
+                "python",
+                "sql",
+                "c",
+                "Object-oriented programming",
+                "Hadoop",
+                "perl",
+                "c++",
+                "rest",
+                "ai",
+                "java",
+                "data architecture"
+            ]
+        }
+    ]
+}
+```
+
+
+## Data Processing
+
+### Extract Skills
+
+The script processes job summaries to extract relevant skills and saves the results to `jobs_with_skills.csv`. It uses predefined skill lists and NLP techniques to identify and extract skills from job descriptions.
+
+### Recommendation
+
+The `recommend_jobs` function matches user-provided skills with job skills from the dataset and recommends the top N jobs. It calculates the similarity between user skills and job skills to generate the recommendations. The AI generates three different job recommendations for the user based on the highest matching skills and similarity scores.
 
