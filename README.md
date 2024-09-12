@@ -4,6 +4,9 @@
 
 This project implements a job recommendation system that analyzes job descriptions and recommends suitable jobs based on a user's skill set. It uses natural language processing (NLP) techniques to extract skills from job summaries and machine learning methods to match these skills with user-provided skills.
 
+![Silk Road Logo](./silkroad.jpg)
+
+
 ## Files
 
 - `Final copy.ipynb`: Jupyter Notebook with the final analysis and processing steps.
