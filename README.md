@@ -1,11 +1,12 @@
 # MarcoPolo AI Model
 
+![Silk Road Logo](./Artboard%203%20copy%203.svg)
+
 ## Overview
 
 This project implements a job recommendation system that analyzes job descriptions and recommends suitable jobs based on a user's skill set. It uses natural language processing (NLP) techniques to extract skills from job summaries and machine learning methods to match these skills with user-provided skills.
 
 ![Silk Road Logo](./silkroad.jpg)
-
 
 ## Files
 
@@ -21,17 +22,21 @@ This project implements a job recommendation system that analyzes job descriptio
    ```bash
    git clone https://github.com/SilckRoad-MarcoPolo/SilkRoad_AI.git
    cd SilkRoad_AI
+   ```
 
-```
+````
 
 ## Create and Activate a Virtual Environment
 
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use venv\Scripts\activate
-```
+````
+
 ## Install Dependencies
+
 Ensure you have the following packages listed in requirements .
+
 ```
 fastapi
 uvicorn
@@ -39,6 +44,7 @@ pandas
 scikit-learn
 nltk
 ```
+
 ## Output Example
 
 ```
@@ -82,7 +88,6 @@ nltk
 }
 ```
 
-
 ## Data Processing
 
 ### Extract Skills
@@ -92,4 +97,3 @@ The script processes job summaries to extract relevant skills and saves the resu
 ### Recommendation
 
 The `recommend_jobs` function matches user-provided skills with job skills from the dataset and recommends the top N jobs. It calculates the similarity between user skills and job skills to generate the recommendations. The AI generates three different job recommendations for the user based on the highest matching skills and similarity scores.
-
