@@ -1,6 +1,6 @@
 # MarcoPolo AI Model
 
-![Silk Road Logo](./Artboard%203%20copy%203.svg)
+![Silk Road Logo](./logo.jpg)
 
 ## Overview
 
